@@ -13,7 +13,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- ROM maintainer name -->
-    <string name="build_maintainer_summary">Paul</string>
-    <string name="build_maintainer_telegram">https://t.me/blazerpaul15</string>
+    <!-- Whether to show Smooth Display feature in Settings Options -->
+    <bool name="config_show_smooth_display">true</bool>
+
+    <!-- Whether to show min refresh rate in display settings -->
+    <bool name="config_show_min_refresh_rate_switch">true</bool>
+
+    <!-- Whether to show Minimum and Maximum refresh rate in display settings -->
+    <bool name="config_show_refresh_rate_controls">true</bool>
 </resources>
